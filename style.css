@@ -1,0 +1,183 @@
+        *{
+
+            margin:0;
+            padding:0;
+        }
+
+        #foodIcon{
+            position:absolute;
+            top:0;
+            padding:2%;
+        }
+        /* The Below styling is for navbar section */ */
+
+        #navbar{
+            height:10vh;
+            width:100vw;
+            background-color:rgb(216, 130, 130);
+        }
+
+        #navbar h1{
+            
+            text-align: center;
+            font-family: 'Luckiest Guy', cursive;
+            padding: 2%;
+            font-size: 2.5rem;;
+        }
+
+        #navbar h2{
+        
+            color:rgb(97, 26, 26); text-decoration:dotted;
+            position:absolute;
+            right:0;
+            top:0;
+            padding: 2%;
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 2rem;
+        } 
+
+        /* The Below styling is for main section */
+
+        main{
+            height:fit-content;
+            width:100vw;
+            background-color: rgb(243, 7, 7);
+        }
+
+        #search-box{
+            position:relative;
+            top:10%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width:39vw;
+            height:1vh;
+            font-size:1.5rem;
+            padding:1.9rem;
+            border-radius:30px;
+            color:orangered;
+            font-weight:500;
+            margin-top:5%;
+        }
+        #search-button{
+            position: relative;
+            transform: translate(-50%,-50%);
+            left: 38%;
+            top: 9%;
+            height: 8%;
+            font-size: 1.5rem;
+            border-radius: 20px;
+            width: 13%;
+        }
+
+        #detail-area{
+            display:flex;
+        }
+
+        #detail{
+        overflow: hidden;
+        margin:1%;
+        border-radius:3%;
+        position: absolute;
+        top:60%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        height: 65vh;
+        width:90vw;
+        background-color: rgb(247, 204, 152);
+        }
+        
+        #detail h1{
+            text-align:center;
+            padding: 1%;
+        }
+
+        #instructions{
+        overflow: hidden;
+        }
+       
+        #card{
+            margin:4%;
+            height:70vh;
+            width:22vw;
+            background-color: bisque;
+            border:2px solid rgb(116, 87, 51);
+            border-radius:20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        #image{
+            height:59%;
+            width:100%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius:20px;
+          }
+        
+        #meal-title h1{
+            margin: 4%;
+            font-size: x-large;
+        }
+        
+        #flex-cont{
+        
+            display:flex;
+            justify-content: space-around;
+            margin-top: 9%;;
+        }
+        
+        .button-read-more button{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2%;
+        font-size: 1.25rem;
+        font-weight: 700;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border:2px solid rgb(116, 87, 51);
+        border-radius:10px;
+        width:fit-content;
+        background-color: #FFE4C4;
+        }
+        
+        .button-read-more button:hover{
+            background-color:#f1dcc2;
+            cursor: pointer;
+        }
+        
+        .button-read-more button:active{
+            background-color:#e0a964;
+            
+        }
+        
+        .fav-button{
+            border:1px;
+            border-radius:50%;
+            padding:5px;
+            background-color: #FFE4C4;
+        }
+        
+        .fav-button:focus{
+         background-color: rgb(243, 162, 175);
+        }
+        
+        #display-area{
+            background-color:rgb(71, 53, 53);
+            margin:1%;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+            border-radius:20px;
+        }
+        
+
+        #favourite-area{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        #favourite-button:hover{
+            color: rgb(243, 7, 7);
+            cursor: pointer;
+        }
+
+        #home:hover{
+            cursor: pointer;
+        }
